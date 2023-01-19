@@ -1,0 +1,5 @@
+.LayoutArea {
+	height: 100%;
+    display: grid;
+    grid-template-rows: 8% 87% 5%;
+}
