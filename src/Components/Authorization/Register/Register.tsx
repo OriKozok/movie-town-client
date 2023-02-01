@@ -14,7 +14,7 @@ function Register(): JSX.Element {
 
     function send(user: UserModel){
         clientService.register(user)
-        .then(()=> navigate("/details"))
+        .then(()=> navigate("/movies"))
         .catch(err=> notificationService.success(err));
     }
 

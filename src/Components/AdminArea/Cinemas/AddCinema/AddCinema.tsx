@@ -1,7 +1,7 @@
 import CinemaModel from "../../../../Models/CinemaModel";
 import { useForm } from "react-hook-form";
 import "./AddCinema.css";
-import { Button, Card, Container, Form } from "react-bootstrap";
+import { Button, Container, Form } from "react-bootstrap";
 import adminService from "../../../../Services/AdminService";
 import { useNavigate } from "react-router-dom";
 import notificationService from "../../../../Services/NotificationService";
